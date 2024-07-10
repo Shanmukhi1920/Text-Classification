@@ -36,7 +36,7 @@ In this project, I am challenged to build a model that predicts which Tweets are
 3. Trained Word2Vec specifically on our dataset and generated word embeddings to capture semantic relationships between words. Set vocabulary size to 5000 to limit computations a bit.
      
 ## Modeling and Evaluation
-1. Employed both machine learning (ML) and deep learning (DL) models such as Logistic Regression, Naive Bayes, LSTM's and GRU's.
+1. Employed both machine learning (ML) and deep learning (DL) models such as Logistic Regression, Naive Bayes, BiLSTM's and BiGRU's.
 2. Assessed the performance of the models on our dataset using metrics such as accuracy, precision, recall and F1-score.
 
 # Installation and Usage
@@ -64,7 +64,7 @@ The model is deployed as a web application using Gradio and hosted on Hugging Fa
 # Key Findings
 1. Naive Bayes emerged as the top performer with an accuracy of 80%, precision of 79%, recall of 82%, and an F1-score of 0.80.
 2. Logistic Regression demonstrated competitive performance with an accuracy of 77%, precision of 76%, recall of 79%, and an F1-score of 0.77.
-3. LSTM and GRU models showed lower accuracy rates of 62.9% and 61.5%, respectively, indicating the need for more data or additional tuning.
+3. BiLSTM and BiGRU models showed lower accuracy rates of 62.9% and 61.5%, respectively, indicating the need for more data or additional tuning.
 
 # Future Work:
 Explore further tuning of LSTM and GRU models and consider using larger datasets to leverage their potential fully.
