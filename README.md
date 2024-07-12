@@ -64,7 +64,7 @@ The model is deployed as a web application using Gradio and hosted on Hugging Fa
 # Key Findings
 1. Naive Bayes emerged as the top performer with an accuracy of 80%, precision of 79%, recall of 82%, and an F1-score of 0.80.
 2. Logistic Regression demonstrated competitive performance with an accuracy of 77%, precision of 76%, recall of 79%, and an F1-score of 0.77.
-3. Both LSTM and GRU models (MultiLayer and Bidirectional) showed lower accuracy rates of 62.9% and 61.5%, respectively, indicating the need for more data or additional tuning.
+3. Both LSTM and GRU models (MultiLayer and Bidirectional) showed lower F1-scores of 62.9% and 61.5%, respectively, indicating the need for more data or additional tuning.
 
 # Future Work:
 Explore further tuning of LSTM and GRU models and consider using larger datasets to leverage their potential fully.
