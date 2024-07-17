@@ -62,23 +62,9 @@ python src/app.py
 The model is deployed as a web application using Gradio and hosted on Hugging Face Spaces. You can access the live demo [here](https://huggingface.co/spaces/Shanmukhi0109/Disaster_Tweet_Classifier)
 
 # Key Findings
-1. Naive Bayes emerged as the top performer with an accuracy of 80%, precision of 79%, recall of 82%, and an F1-score of 0.80.
-2. Logistic Regression demonstrated competitive performance with an accuracy of 77%, precision of 76%, recall of 79%, and an F1-score of 0.77.
-3. Both LSTM and GRU models (MultiLayer and Bidirectional) showed lower F1-scores of 62.9% and 61.5%, respectively, indicating the need for more data or additional tuning.
-
-# Future Work:
-Explore further tuning of LSTM and GRU models and consider using larger datasets to leverage their potential fully.
-
-
-
-
-
-
-
-
-
-
-
+1. Logistic Regression with TF-IDF preprocessing achieved the highest F1 score of 0.79007 on the test data, closely followed by Logistic Regression with Bag-of-Words (BOW) preprocessing at 0.78853. 
+2. Among the recurrent neural network models using Word2Vec embeddings, LSTM achieved an F1 score of 0.77382, slightly outperforming GRU (0.77536) and SimpleRNN (0.73214).
+3. Naive Bayes with TF-IDF preprocessing achieved an F1 score of 0.77873 on the test data but demonstrated a lower false negative rate during validation, making it the chosen model for deployment.
 
 # Citations
 Addison Howard, devrishi, Phil Culliton, Yufeng Guo. (2019). Natural Language Processing with Disaster Tweets. Kaggle. https://kaggle.com/competitions/nlp-getting-started
