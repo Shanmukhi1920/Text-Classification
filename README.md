@@ -1,9 +1,8 @@
 
 # Overview
 
-Twitter has become  an  important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce  an  emergency  they’re  observing  in real-time. Because of this, more agencies are interested in programmatically monitoring  Twitter (i.e. disaster relief organizations and news agencies). But it’s  not always clear whether a person’s words are actually announcing a disaster.
+The project aims to develop a  model that accurately classifies tweets as either related to real disasters or not. This task addresses the growing importance of Twitter as a real-time emergency communication channel, particularly due to the widespread use of smartphones. The model will help disaster relief organizations and news agencies efficiently monitor and filter Twitter content during emergencies. Working with a dataset of 10,000 hand-classified tweets, the challenge lies in distinguishing between genuine disaster announcements and unrelated content, thereby improving emergency response times, reducing misinformation, and enhancing public awareness during critical situations.
 
-In this project, I am challenged to build a model that predicts which Tweets are about real disasters and which one’s aren’t. The dataset consists of 10,000 tweets that were hand classified.
 
 # Repository Contents
 - `data/`: Contains the dataset used for training and testing, as well as the submission files for kaggle 
