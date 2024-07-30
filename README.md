@@ -61,7 +61,7 @@ The model is deployed as a web application using Gradio and hosted on Hugging Fa
 
 ## Key Findings
 1. Logistic Regression with TF-IDF preprocessing achieved the highest F1 score of 0.79007 on the test data, closely followed by Logistic Regression with Bag-of-Words (BOW) preprocessing at 0.78853. 
-2. Among the recurrent neural network models using Word2Vec embeddings, LSTM achieved an F1 score of 0.77382, slightly outperforming GRU (0.77536) and SimpleRNN (0.73214).
+2. Among the recurrent neural network models using Word2Vec embeddings, GRU achieved an F1 score of 0.77536, slightly outperforming LSTM (0.77382) and SimpleRNN (0.73214).
 3. Naive Bayes with TF-IDF preprocessing achieved an F1 score of 0.77873 on the test data but demonstrated a lower false negative rate during validation, making it the chosen model for deployment.
 
 ## Citations
